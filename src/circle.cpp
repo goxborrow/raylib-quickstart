@@ -5,5 +5,5 @@ void Circle::Update() {
 }
 
 void Circle::Draw() {
-	DrawCircleV(position, size, color);
+	DrawCircleV(position, size/2, color);
 }

@@ -3,9 +3,12 @@
 
 class Shape {
 public:
+	// Update in shape.h
 	enum class Type {
 		CIRCLE,
 		SQUARE,
+		TRIANGLE,
+		IMAGE,
 		NumShapes
 	};
 

@@ -14,4 +14,7 @@ public:
 		return Type::SQUARE;
 	}
 
+private:
+	float rotation{ 0 };
+
 };
